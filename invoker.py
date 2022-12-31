@@ -32,7 +32,7 @@ def update_high_score(name, high_score):
         
         # Commit the update to the database
         con.commit()
-        
+
     except sqlite3.Error as e:
         print(e)
 
