@@ -65,7 +65,7 @@ def main():
 
         for spell in spell_dict.items():
             combinations = [
-                ''.join(combination) for combination in itertools.permutations(spell[1])]
+                ''.join(combination) for combination in itertools.permutations(spell[1])] 
             if user_input in combinations:
                 found_spell = True
                 if spell[0] == random_spell:
