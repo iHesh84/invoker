@@ -62,7 +62,6 @@ def main():
 
         user_input = input('Enter: ').lower()
         found_spell = False
-
         for spell in spell_dict.items():
             combinations = [
                 ''.join(combination) for combination in itertools.permutations(spell[1])] 
